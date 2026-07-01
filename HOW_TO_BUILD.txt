@@ -1,0 +1,54 @@
+# How to Build QRJump APK Using GitHub Actions
+# ================================================
+# Follow these steps exactly. No coding knowledge needed.
+
+## STEP 1 — Create a GitHub Account
+   Go to: https://github.com
+   Click "Sign up" and create a free account.
+
+## STEP 2 — Create a New Repository
+   1. After logging in, click the "+" button (top right)
+   2. Click "New repository"
+   3. Name it: QRJump
+   4. Set it to "Public"
+   5. Click "Create repository"
+
+## STEP 3 — Upload the Project Files
+   1. Download and extract the QRJump.zip file I gave you
+   2. On your new GitHub repo page, click "uploading an existing file"
+   3. Drag and drop ALL the extracted files and folders into the upload box
+      (Make sure to upload the whole folder contents, not just some files)
+   4. Scroll down, click "Commit changes"
+
+## STEP 4 — Wait for the Build
+   1. Click the "Actions" tab at the top of your repo
+   2. You will see "Build QRJump APK" workflow running (yellow dot = running)
+   3. Wait about 10-15 minutes for it to finish
+   4. Green checkmark ✅ = success
+   5. Red X ❌ = something went wrong (message me and I'll fix it)
+
+## STEP 5 — Download Your APK
+   1. Click on the completed workflow run
+   2. Scroll down to the "Artifacts" section at the bottom
+   3. Click "QRJump-debug-apk" to download it
+   4. You'll get a zip file — extract it
+   5. Inside is "app-debug.apk" — this is your app!
+
+## STEP 6 — Install on Your Android Phone
+   1. Copy the APK to your Android phone (via USB, WhatsApp, Google Drive, etc.)
+   2. On your phone, go to Settings → Security → Enable "Install unknown apps"
+   3. Open the APK file on your phone
+   4. Tap "Install"
+   5. Done! QRJump is installed.
+
+## STEP 7 — Run on PC (Optional)
+   Install BlueStacks: https://www.bluestacks.com
+   Then drag the APK file into BlueStacks to install and run it on PC.
+
+## If the Build Fails
+   - Take a screenshot of the error in the Actions tab
+   - Send it to me and I'll fix the code and give you an updated zip
+
+## Re-building After Changes
+   Every time you upload new files to GitHub, the build runs automatically.
+   You don't need to do anything extra.

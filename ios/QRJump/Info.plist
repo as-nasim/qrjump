@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ios/QRJump/Info.plist -->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+  <!-- Camera permission -->
+  <key>NSCameraUsageDescription</key>
+  <string>QRJump uses the camera to scan QR codes and open apps instantly.</string>
+
+  <!-- URL schemes that this app is allowed to query / open -->
+  <key>LSApplicationQueriesSchemes</key>
+  <array>
+    <string>bkash</string>
+    <string>nagad</string>
+    <string>rocket</string>
+    <string>upay</string>
+    <string>surecash</string>
+    <string>whatsapp</string>
+    <string>tg</string>
+    <string>instagram</string>
+    <string>fb</string>
+    <string>youtube</string>
+    <string>daraz</string>
+    <string>pathao</string>
+    <string>uber</string>
+    <string>paytm</string>
+    <string>upi</string>
+    <string>paypal</string>
+    <string>shohoz</string>
+  </array>
+
+  <!-- Standard RN keys -->
+  <key>CFBundleDevelopmentRegion</key>
+  <string>en</string>
+  <key>CFBundleDisplayName</key>
+  <string>QRJump</string>
+  <key>CFBundleExecutable</key>
+  <string>$(EXECUTABLE_NAME)</string>
+  <key>CFBundleIdentifier</key>
+  <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+  <key>CFBundleInfoDictionaryVersion</key>
+  <string>6.0</string>
+  <key>CFBundleName</key>
+  <string>$(PRODUCT_NAME)</string>
+  <key>CFBundlePackageType</key>
+  <string>APPL</string>
+  <key>CFBundleShortVersionString</key>
+  <string>1.0</string>
+  <key>CFBundleSignature</key>
+  <string>????</string>
+  <key>CFBundleVersion</key>
+  <string>1</string>
+  <key>NSAppTransportSecurity</key>
+  <dict>
+    <key>NSAllowsArbitraryLoads</key>
+    <true/>
+  </dict>
+  <key>UILaunchStoryboardName</key>
+  <string>LaunchScreen</string>
+  <key>UIRequiredDeviceCapabilities</key>
+  <array>
+    <string>armv7</string>
+  </array>
+  <key>UISupportedInterfaceOrientations</key>
+  <array>
+    <string>UIInterfaceOrientationPortrait</string>
+    <string>UIInterfaceOrientationLandscapeLeft</string>
+    <string>UIInterfaceOrientationLandscapeRight</string>
+  </array>
+  <key>UIViewControllerBasedStatusBarAppearance</key>
+  <false/>
+
+</dict>
+</plist>
